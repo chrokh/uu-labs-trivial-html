@@ -1,0 +1,127 @@
+body{
+  font-family: 'Century Gothic', Helvetica, Arial, sans-serif;
+}
+
+#container {
+  width:  1000px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/*
+ * 
+ * HEADER
+ *
+ */
+
+
+header {
+  background-color: #FFA500;
+  padding:          2%;
+  letter-spacing:   1em;
+  text-align: center;
+}
+
+header h1 {
+  margin:           0;
+  font-weight:      100;
+  text-transform:   uppercase;
+}
+
+header a {
+  color:            #fff;
+  text-decoration:  none;
+  display:          block;
+}
+
+header a:hover {
+  color:            #222;
+}
+
+
+
+/*
+ * 
+ * NAVIGATION
+ *
+ */
+
+nav {
+  background-color: #FFD700;
+  width:            16%;
+  padding:          2%;
+  float:            left;
+  text-align:       center;
+}
+
+nav ul {
+  list-style-type:  none;
+  padding:          0;
+}
+
+nav ul li {
+  font-size:        20px;
+}
+
+nav ul li a {
+  color:            #222;
+  font-weight:      bold;
+  text-decoration:  none;
+  display:          block;
+  padding:          15px inherit;
+}
+
+nav ul li a:hover {
+  color:            #fff;
+}
+
+nav ul li.active a {
+  background:       yellow;
+}
+
+nav ul li.active a:hover {
+  color:            #666;
+}
+
+
+
+/*
+ * 
+ * CONTENT
+ *
+ */
+
+#content {
+  background-color: #eee;
+  width:            76%;
+  float:            left;
+  padding:          2%;
+}
+
+#content img {
+  float:            left;
+  width:            125px;
+  margin-right:     25px;
+}
+
+
+
+
+
+/*
+ * 
+ * FOOTER
+ *
+ */
+
+#footer {
+  background-color: #FFA500;
+  clear:            both;
+  text-align:       center;
+  padding:          2%;
+}
+
